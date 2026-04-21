@@ -62,7 +62,7 @@ class SummaryCard extends StatelessWidget {
                               color: const Color.fromARGB(255, 13, 185, 19),
                             ),
                           ),
-                          SizedBox(width: 10,),
+                          SizedBox(width: 10),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -100,10 +100,7 @@ class SummaryCard extends StatelessWidget {
                               color: Colors.red.withOpacity(0.2),
                               borderRadius: BorderRadius.circular(8),
                             ),
-                            child: Icon(
-                              Icons.arrow_upward,
-                              color: Colors.red,
-                            ),
+                            child: Icon(Icons.arrow_upward, color: Colors.red),
                           ),
                           SizedBox(width: 8),
                           Column(
@@ -135,6 +132,5 @@ class SummaryCard extends StatelessWidget {
         ],
       ),
     );
-  
   }
 }

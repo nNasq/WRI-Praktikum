@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Transactioncard extends StatelessWidget {
-
   const Transactioncard({super.key});
 
   @override
@@ -30,7 +29,12 @@ class Transactioncard extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 13, 185, 19).withOpacity(0.2),
+                      color: const Color.fromARGB(
+                        255,
+                        13,
+                        185,
+                        19,
+                      ).withOpacity(0.2),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Icon(
@@ -59,9 +63,9 @@ class Transactioncard extends StatelessWidget {
                         style: theme.textTheme.bodySmall?.copyWith(
                           color: Colors.white70,
                         ),
-                      )
+                      ),
                     ],
-                  )
+                  ),
                 ],
               ),
               Text(
@@ -70,11 +74,11 @@ class Transactioncard extends StatelessWidget {
                   color: Colors.green,
                   fontWeight: FontWeight.bold,
                 ),
-              )
+              ),
             ],
           ),
         ),
-      )
+      ),
     );
   }
 }
